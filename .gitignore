@@ -1,0 +1,5 @@
+.venv/
+pinns/.kalman_face_tracking/
+__pycache__/
+.vscode/
+*.py[cod]
