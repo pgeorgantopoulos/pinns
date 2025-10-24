@@ -65,7 +65,9 @@ $$ \min L = \min  L_1 + L_2 \quad s.t. \quad f(u(x,t),v(x,t),...) = 0 $$
 
 [Understanding and Mitigating Gradient Flow Pathologies in Physics-Informed Neural Networks](https://epubs.siam.org/doi/abs/10.1137/20m1318043?journalCode=sjoce3)
 
-    Exploding gradients(?) "..numerical stiffness leading to unbalanced back-propagated gradients during model training." 
+    Exploding gradients(?) "..numerical stiffness leading to unbalanced back-propagated gradients during model training."
+
+[Karniadakis CRUNCH research group](https://sites.brown.edu/crunch-group/)
 
 ### Code
 
@@ -73,7 +75,12 @@ $$ \min L = \min  L_1 + L_2 \quad s.t. \quad f(u(x,t),v(x,t),...) = 0 $$
 
 [Physics Informed Transformers](https://github.com/AdityaLab/pinnsformer)
 
-
 PINNS solve continuous or discrete dynamics
 Continuous model: data-efficient spatio-temporal function approximation
 Discrete model: Runge-Kutta time stepping schemes of arbitrary accuracy and unlimited number of stages. -->
+
+# Neural Operators
+
+$G_{\theta}(x(0)) \rightarrow x(t)$
+
+[Gianluca Fabiani et al., “Enabling Local Neural Operators to Perform Equation-Free System-Level Analysis.”](https://arxiv.org/abs/2505.02308) is an understandable **Neural Operators** paper.
